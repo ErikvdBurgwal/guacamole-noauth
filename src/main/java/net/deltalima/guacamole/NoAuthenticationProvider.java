@@ -98,6 +98,7 @@ public class NoAuthenticationProvider implements AuthenticationProvider {
         }
 
     }
+
     @Override
     public Map<String, GuacamoleConfiguration> getAuthorizedConfigurations(Credentials credentials) throws GuacamoleException {
         // Check mapping file mod time

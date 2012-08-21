@@ -15,7 +15,6 @@
 
     <build>
         <plugins>
-
             <!-- Written for 1.6 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -25,12 +24,10 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 
     <dependencies>
-
         <!-- SLF4J - logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -57,17 +54,14 @@
             <artifactId>guacamole-ext</artifactId>
             <version>0.6.0</version>
         </dependency>
-
     </dependencies>
 
     <repositories>
-        
         <!-- Central Guacamole repository -->
         <repository>
             <id>guac-dev</id>
             <url>http://guac-dev.org/repo</url>
         </repository>
-        
     </repositories>
 
 </project>
