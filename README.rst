@@ -1,7 +1,7 @@
 guacamole-noauth
 ================
 
-Remove login screen from the `Guacamole <http://guac-dev.org/>` web interface.
+Remove login screen from the `Guacamole <http://guac-dev.org/>`_ web interface.
 
 Build
 -----
